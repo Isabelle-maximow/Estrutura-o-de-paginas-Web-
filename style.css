@@ -1,0 +1,19 @@
+li{
+    list-style: none;  /* remove os pontinhos da lista */
+    display: inline;  /* so em linha, lado a lado */
+    margin-right: 10px; /* espaço entre eles */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* especificando que são os links */
+li a {
+    text-decoration: none;
+    color: #b16c6c;
+    padding-right:10px; /* espaço entre as setas, padding eh espaçamento interno */
+
+}
+
+/* hover é para animação qaundo passar o mouse */
+li a:hover{
+    color:#999;
+}

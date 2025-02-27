@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav {
+    position: fixed; /* vai ficar fixo na tela, msm com a rolagem*/
+    width: 100%; /* ocupa 100% do espaço da tela */
+    background: black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /*  definir o espaçamento entre os elementos */
+}
+
+nav a {
+    color: white;
+    text-decoration: none; /*  removemos o sublinhado */
+    font-size: 20px;
+    padding: 10px;
+} 
+
+nav a:hover{
+    background: white; /* cor no fundo da palavra */
+    border-radius: 5px;     /* borda no fundo da palavra */
+    color: black;  /* cor da palavra */
+}
+
+/* CHAMANDO AS CLASES PELO ID: */
+
+#home {
+    background-color: #5a5d9d ;
+}
+#cursos{
+    background-color: #5e63b6;
+}
+#unidades{
+    background-color:#a393eb ;
+}
+#fale{
+    background-color: #390050;
+    color: white;
+}
+
+/* TODAS CHAMANDO A SEÇÃO: */
+section{
+    height: 100vh;  /* pega todo o espaço da pagina / fazendo rolar parar chegar em outras seções */
+
+} 
