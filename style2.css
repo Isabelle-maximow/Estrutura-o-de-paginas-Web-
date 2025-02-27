@@ -6,7 +6,7 @@
 nav {
     position: fixed; /* vai ficar fixo na tela, msm com a rolagem*/
     width: 100%; /* ocupa 100% do espaço da tela */
-    background: black;
+    background: rgba(0, 0, 0, 0.555);
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -45,5 +45,10 @@ nav a:hover{
 /* TODAS CHAMANDO A SEÇÃO: */
 section{
     height: 100vh;  /* pega todo o espaço da pagina / fazendo rolar parar chegar em outras seções */
-
-} 
+    /* ajustando para aparecer o nav sempre: */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
