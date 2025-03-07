@@ -1,0 +1,72 @@
+body{
+    background: rgb(213,121,121);
+    background: linear-gradient(184deg, rgba(213,121,121,1) 0%, rgba(97,51,34,1) 100%);
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;  /* tirar a bolinha das listas / tag para listas */
+    display: inline;
+    padding: 15px;
+    margin-right: 20px;
+    font-size: 20px
+}
+
+nav{
+    position: fixed;
+    background-color: brown;
+    width: 100%; /* ocupa 100% do espaço da tela */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #FFEBCD;
+}
+
+a:hover{
+    color: black;
+    font-size: x-large;
+    transition: all 0.3s;  /* animação ao passar o mouse / bem power point */
+}
+
+#produtos{
+    display: none;
+    position: absolute;
+    background-color: #8B4513;
+    width: 140px;
+    margin-left: 113px;
+    padding: 0;
+}
+
+/*  DROPDOWN  */
+#menu_produtos:hover #produtos{
+    display: block;   /* APARECE O MENU ASSIM Q PASSA O MOUSE  */
+    border-radius: 12px;
+}
+
+/* O MENU */
+#produtos a{
+    color: #FFEBCD;
+    padding: 12px 16px;  /* vertical, horizontal */
+    display: block;  /* distanciou os itens */
+    border-radius: 10px;
+}
+
+#produtos a:hover{
+    color: black;
+    font-size: large;
+    transition: all 0.3s;
+    background-color: #FFEBCD;
+}
+
+#produtos li{
+    margin: 0;
+    padding: 0;
+}
